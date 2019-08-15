@@ -36,14 +36,10 @@ export default {
     },
     computed:{
       casts() {
-                const casts = this.movie
-                return casts.map(item => item.casts.map(item => item.name)).join(',')
+                
             },
       num () {
-                const num = this.movie.length
-                for (let i = 0; i < num; i++) {
-                    return i    
-                }
+               
       }
 
         },
